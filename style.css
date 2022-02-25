@@ -34,8 +34,19 @@ main {
   flex-wrap: wrap;
 }
 
+#input-name {
+  width: 330px;
+}
+
+#input-lastname {
+  width: 330px;
+}
+
 #input-email {
-  width: 55%;
+  width: 330px;
+}
+#house-label {
+  width: 330px;
 }
 
 #trybewarts-forms-logo {
