@@ -29,6 +29,15 @@ main {
   flex-direction: column;
 }
 
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#input-email {
+  width: 55%;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
