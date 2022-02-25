@@ -45,10 +45,19 @@ main {
 #input-email {
   width: 330px;
 }
+
 #house-label {
   width: 330px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#family-select {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 300px;
 }
