@@ -19,45 +19,71 @@ main {
   display: flex;
 }
 
-.btn-login {
-  background-color: blueviolet;
-}
-
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  flex-wrap: wrap;
+  height: 400px;
 }
 
 .inputs {
   display: flex;
   flex-wrap: wrap;
+  height: 80px;
 }
 
 #input-name {
   width: 330px;
+  height: 40px;
 }
 
 #input-lastname {
   width: 330px;
+  height: 40px;
 }
 
 #input-email {
   width: 330px;
+  height: 40px;
 }
 
 #house-label {
   width: 330px;
+  height: 40px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
 
+.inputs div {
+  align-self: center;
+}
+
 #family-select {
   display: flex;
-  flex-direction: column;
-  margin-top: 30px;
-  margin-left: 20px;
+  flex-direction: row;
+}
+
+.family-selector {
+  display: flex;
+  width: 330px;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.family-selector div {
   width: 300px;
+  margin-top: 10px;
+}
+
+.content-selector {
+  display: flex;
+  width: 330px;
+  flex-wrap: wrap;
+}
+
+.content-selector div {
+  width: 100px;
 }
