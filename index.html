@@ -18,14 +18,18 @@
       <h1 id="trybewarts-header-title">Trybewarts</h1>
 
       <form class="trybewarts-login" action="">
-        <input class="email" type="text" placeholder="Email" name="email" />
-        <input class="senha" type="text" placeholder="Senha" name="password" />
+        <input class="email" type="text" placeholder="  Email" name="email" />
+        <input class="senha" type="text" placeholder="  Senha" name="password" />
         <button id="btn-login">Entrar</button>
       </form>
     </header>
 
     <main>
+
       <form id="evaluation-form" action="">
+
+        <h2 id="form-avaliation">Formulário de Avaliação</h2>
+
         <div class="inputs">
           <input type="text" id="input-name" placeholder="Nome" />
           <input type="text" id="input-lastname" placeholder="Sobrenome" />
@@ -42,7 +46,7 @@
           </label>
           </div>
         </div>
-
+        <hr>
         <section id="family-select">
           <div class="family-selector">
             <label id="label-family" for="">Qual sua família?</label>
@@ -57,6 +61,7 @@
               <div>
                 <input type="radio" name="family" id="radio-FullStack" value="FullStack">
                 <label for="radio-FullStack">Família Fullstack</label>
+
               </div>
           </div>
 
@@ -95,11 +100,26 @@
             </label>
           </div>
         </section>
+        <hr>
+        <section class="satisfaction-level">
+          <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+          <br>
+          <input name="rate" type="radio" value="1" id="radios">1
+          <input name="rate" type="radio" value="1" id="radios">2
+          <input name="rate" type="radio" value="1" id="radios">3
+          <input name="rate" type="radio" value="1" id="radios">4
+          <input name="rate" type="radio" value="1" id="radios">5
+          <input name="rate" type="radio" value="1" id="radios">6
+          <input name="rate" type="radio" value="1" id="radios">7
+          <input name="rate" type="radio" value="1" id="radios">8
+          <input name="rate" type="radio" value="1" id="radios">9
+          <input name="rate" type="radio" value="1" id="radios">10
+        </section>
       </form>
       <img
         id="trybewarts-forms-logo"
         src="/images/trybewarts-colored.svg"
-        alt=""
+        alt="logo-trybewarts"
       />
     </main>
 
