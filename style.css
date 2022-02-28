@@ -166,16 +166,32 @@ hr {
 }
 
 #submit-btn {
+  padding: 10px;
   border-radius: 5px;
-  border: none;
-  margin-right: 10px;
-  width: 800px;
+  border: 1px solid gray;
   background-color: rgb(108, 18, 168);
   color: white;
   font-size: large;
+  width: 630px;
+  margin: 10px 50px;
 }
 
 .text-checkbox {
   display: flex;
-  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.text-checkbox input {
+  margin-left: 10px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 15px;
+  background-color: rgb(61, 57, 57);
+  color: white;
 }
