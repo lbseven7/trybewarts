@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: '';
+  background-color: rgb(223, 222, 222);
+}
+
 main {
   display: flex;
 }
@@ -19,6 +24,12 @@ h2 {
   margin-bottom: 20px;
 }
 
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
 .email {
   border-radius: 10px;
   border: none;
@@ -31,16 +42,6 @@ h2 {
   border: none;
   margin-right: 10px;
   width: 150px;
-}
-
-#btn-login {
-  border-radius: 10px;
-  border: none;
-  margin-right: 10px;
-  width: 150px;
-  background-color: rgb(108, 18, 168);
-  color: white;
-  font-size: large;
 }
 
 .header {
@@ -62,15 +63,6 @@ h2 {
   height: 40px;
 }
 
-
-#evaluation-form {
-  display: flex;
-  width: 675px;
-  flex-flow: column wrap;
-  height: 100%;
-  margin: auto;
-}
-
 .inputs {
   display: flex;
   flex-wrap: wrap;
@@ -78,16 +70,41 @@ h2 {
   margin: auto;
 }
 
+#btn-login {
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  width: 150px;
+  background-color: rgb(108, 18, 168);
+  color: white;
+  font-size: large;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-flow: column wrap;
+  height: 100%;
+  margin: auto;
+  margin-top: 30px;
+}
+
 #input-name {
   width: 330px;
   height: 40px;
   margin: auto;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
 }
 
 #input-lastname {
   width: 330px;
   height: 40px;
   margin-left: 5px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
 }
 
 #input-email {
@@ -95,6 +112,9 @@ h2 {
   height: 40px;
   margin-top: 20px;
   margin-left: 5px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
 }
 
 #house-label {
@@ -148,12 +168,6 @@ h2 {
   margin-left: 10px;
 }
 
-hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 30px;
-}
-
 .textarea-section {
   display: flex;
   width: 600px;
@@ -163,6 +177,7 @@ hr {
 #textarea {
   margin-top: 20px;
   resize: none;
+  width: 800px;
 }
 
 #submit-btn {
@@ -172,8 +187,9 @@ hr {
   background-color: rgb(108, 18, 168);
   color: white;
   font-size: large;
-  width: 630px;
-  margin: 10px 50px;
+  width: 800px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .text-checkbox {
