@@ -24,15 +24,13 @@ function btnStatus() {
 
 agreement.addEventListener('click', btnStatus);
 
-
 // const counter = Number(document.querySelector('#counter'));
 const textArea = document.getElementById('textarea');
-
 
 function counterArea() {
   // const max = textArea.maxlength; // 500 caracteres
   // const value = textArea.value.length;
-  let contador = document.getElementById('counter');
+  const contador = document.getElementById('counter');
   contador.innerText = 500 - textArea.value.length;
 }
 
