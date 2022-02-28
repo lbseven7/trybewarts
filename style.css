@@ -67,7 +67,7 @@ h2 {
   display: flex;
   width: 675px;
   flex-flow: column wrap;
-  height: 400px;
+  height: 100%;
   margin: auto;
 }
 
@@ -144,12 +144,23 @@ h2 {
 
 .satisfaction-level {
   display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
+  justify-content: space-evenly;
+  margin-left: 10px;
 }
 
 hr {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 30px;
+}
+
+.textarea-section {
+  display: flex;
+  width: 600px;
+  margin-left: 20px;
+}
+
+#textarea {
+  margin-top: 20px;
+  resize: none;
 }
