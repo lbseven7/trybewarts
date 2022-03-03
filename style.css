@@ -5,8 +5,8 @@
 }
 
 body {
-  background-image: '';
   background-color: rgb(223, 222, 222);
+  background-image: url(/images/pexels-dana-tentis-370799.jpg);
 }
 
 main {
@@ -22,12 +22,24 @@ h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  font-size: xx-large;
 }
 
 hr {
-  margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 30px;
+  margin-left: 22px;
+  width: 117%;
+}
+
+span {
+  display: flex;
+  justify-items: center;
+}
+
+/* para arrumar a imagem do escudo trybewarts */
+.image {
+  display: flex;
+  margin: auto;
 }
 
 .email {
@@ -63,21 +75,14 @@ hr {
   height: 40px;
 }
 
-.inputs {
-  display: flex;
-  flex-wrap: wrap;
-  height: 80px;
-  margin: auto;
-}
-
 #btn-login {
   border-radius: 10px;
   border: none;
-  margin-right: 10px;
-  width: 150px;
+  /* margin-right: 10px; */
+  width: 180px;
   background-color: rgb(108, 18, 168);
   color: white;
-  font-size: large;
+  font-size: small;
 }
 
 #evaluation-form {
@@ -87,40 +92,48 @@ hr {
   height: 100%;
   margin: auto;
   margin-top: 30px;
+  margin-left: 30px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
 }
 
 #input-name {
-  width: 330px;
   height: 40px;
-  margin: auto;
   background-color: white;
   border: none;
   border-radius: 5px;
+  width: 50%;
 }
 
 #input-lastname {
-  width: 330px;
+  width: 45%;
   height: 40px;
-  margin-left: 5px;
+  margin-left: 0;
   background-color: white;
   border: none;
   border-radius: 5px;
 }
 
 #input-email {
-  width: 330px;
+  width: 45%;
   height: 40px;
   margin-top: 20px;
-  margin-left: 5px;
   background-color: white;
   border: none;
   border-radius: 5px;
 }
 
-#house-label {
-  width: 330px;
-  height: 100px;
-  margin: auto;
+#house {
+  width: 45%;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
 }
 
 #trybewarts-forms-logo {
@@ -129,9 +142,9 @@ hr {
   display: flex;
 }
 
-.inputs div {
+.inputs > div {
   align-self: center;
-  margin: auto;
+  width: 100%;
 }
 
 #family-select {
@@ -168,16 +181,26 @@ hr {
   margin-left: 10px;
 }
 
+/* Coloca contador dentro do textarea */
 .textarea-section {
   display: flex;
-  width: 600px;
   margin-left: 20px;
+  position: relative;
 }
 
 #textarea {
   margin-top: 20px;
   resize: none;
-  width: 800px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Coloca contador dentro do textarea */
+#counter {
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+  color: rgb(8, 144, 115);
 }
 
 #submit-btn {
@@ -186,7 +209,7 @@ hr {
   border: 1px solid gray;
   background-color: rgb(108, 18, 168);
   color: white;
-  font-size: large;
+  font-size: x-large;
   width: 800px;
   margin-left: 20px;
   margin-top: 20px;
