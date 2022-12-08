@@ -47,6 +47,7 @@ span {
   border: none;
   margin-right: 10px;
   width: 200px;
+  padding-left: 10px;
 }
 
 .senha {
@@ -54,25 +55,27 @@ span {
   border: none;
   margin-right: 10px;
   width: 150px;
+  padding-left: 10px;
 }
 
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: auto;
 }
 
 .trybewarts-header-logo {
   display: flex;
   width: 100px;
   height: 100px;
+  margin-left: 30px;
 }
 
 .trybewarts-login {
   display: flex;
   height: 40px;
+  margin-right: 30px;
 }
 
 #btn-login {
@@ -107,6 +110,7 @@ span {
   border: none;
   border-radius: 5px;
   width: 50%;
+  padding-left: 10px;
 }
 
 #input-lastname {
@@ -116,6 +120,7 @@ span {
   background-color: white;
   border: none;
   border-radius: 5px;
+  padding-left: 10px;
 }
 
 #input-email {
@@ -125,6 +130,7 @@ span {
   background-color: white;
   border: none;
   border-radius: 5px;
+  padding-left: 10px;
 }
 
 #house {
@@ -193,6 +199,8 @@ span {
   resize: none;
   width: 100%;
   border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 /* Coloca contador dentro do textarea */

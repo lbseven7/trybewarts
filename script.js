@@ -36,10 +36,30 @@ function counterArea() {
 
 textArea.addEventListener("keyup", counterArea);
 
-// btnSubmit.addEventListener('click', (event) => {
-//   event.preventDefault();
-//   const family = document.querySelector('input[name="family"]:checked');
-//   const conteudo = document.querySelector('')
-//   const avaliacao = document.querySelector();
+// obtive ajuda de matheus Liberato
 
-// })
+const nome = document.getElementById('input-name');
+const sobrenome = document.getElementById('input-lastname');
+const email = document.getElementById('input-email');
+const casa = document.getElementById('house');
+const comentario = document.getElementById('textarea');
+const formulario = document.getElementById('evaluation-form');
+
+btnSubmit.addEventListener('click', (event) => {
+  event.preventDefault();
+  const family = document.querySelector('input[name="family"]:checked'); // seleciona marcado
+  const avaliacao = document.querySelector('input[name="rate"]:checked'); // seleciona marcado
+  const materias = document.querySelectorAll('.content-selector input[type="checkbox"]:checked');
+  const disciplinas = [];
+
+  for (let index = 0; index < materias.length; index += 1) disciplinas.push(` ${materias[index].value}`);
+
+  formulario.innerHTML = `
+    Nome: ${nome.value} ${sobrenome.value} <br>
+    Email: ${email.value} <br>
+    Casa: ${casa.value} <br>
+    Família: ${family.value} <br>
+    Materias: ${disciplinas} <br>
+    Avaliação: ${avaliacao.value} <br>
+    Observações: ${comentario.value}`
+});
